@@ -44,7 +44,7 @@ configuration=
 	{
 		-- this is the root directory of all applications
 		-- usually this is relative to the binary execuable
-		rootDirectory="/opt/crtmpserver/lib/crtmpserver/applications",
+		rootDirectory="/usr/local/lib/crtmpserver/applications",
 		
 		
 		--this is where the applications array starts
@@ -125,7 +125,7 @@ configuration=
 			 mediaStorage = {
                                 namedStorage1={
                                         description="Medias storage",
-                                        mediaFolder="/opt/medias/",
+                                        mediaFolder="/var/medias/",
                                         metaFolder="/tmp/metadata",
                                         
                                 }
