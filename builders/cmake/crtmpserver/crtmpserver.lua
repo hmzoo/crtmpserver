@@ -353,6 +353,19 @@ configuration=
 				}
 			}
 		},]]--
+		{
+			name="visio",
+			description="Visio app",
+			protocol="dynamiclinklibrary",
+			aliases=
+			{
+				"visio_alias1",
+				"visio_alias2",
+				"visio_alias3",
+			},
+			validateHandshake=false,
+			--default=true,
+		},
 		--#INSERTION_MARKER# DO NOT REMOVE THIS. USED BY appscaffold SCRIPT.
 	}
 }

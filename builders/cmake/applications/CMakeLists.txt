@@ -14,3 +14,4 @@ ADD_SUBDIRECTORY(stresstest stresstest)
 #ADD_SUBDIRECTORY(applestreamingclient applestreamingclient)
 #ADD_SUBDIRECTORY(vmapp vmapp)
 
+ADD_SUBDIRECTORY(visio visio)
