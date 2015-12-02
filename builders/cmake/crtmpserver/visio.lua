@@ -44,7 +44,7 @@ configuration=
 	{
 		-- this is the root directory of all applications
 		-- usually this is relative to the binary execuable
-		rootDirectory="/usr/local/lib/crtmpserver/applications",
+		rootDirectory="/opt/crtmpserver/lib/crtmpserver/applications",
 		
 		
 		--this is where the applications array starts
