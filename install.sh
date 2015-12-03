@@ -10,7 +10,7 @@ sudo chown crtmpserver /var/medias
 sudo cp init.d/crtmpserver /etc/init.d/crtmpserver
 
 cd builders/cmake
-cmake -DCRTMPSERVER_INSTALL_PREFIX=/usr/local/ .
+cmake  -DCMAKE_BUILD_TYPE=Release -DCRTMPSERVER_INSTALL_PREFIX=/usr/local/ .
 make
 sudo make install
 make clean
