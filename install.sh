@@ -2,10 +2,10 @@
 
 sudo apt-get update && sudo apt-get -y install g++ cmake make libssl-dev
 
-sudo mkdir /var/medias
+sudo mkdir /usr/local/medias
 
 sudo useradd -r -s /sbin/nologin crtmpserver
-sudo chown crtmpserver /var/medias
+sudo chown crtmpserver /usr/local/medias
 
 sudo cp init.d/crtmpserver /etc/init.d/crtmpserver
 

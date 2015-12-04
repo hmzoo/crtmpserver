@@ -26,9 +26,19 @@ namespace app_visio {
 
 	class RTMPAppProtocolHandler
 	: public BaseRTMPAppProtocolHandler {
-	public:
+   public:
     	RTMPAppProtocolHandler(Variant &configuration);
     	virtual ~RTMPAppProtocolHandler();
+
+
+	virtual bool ProcessInvokeGeneric(BaseRTMPProtocol *pFrom,
+				    Variant &request);
+ 
+	virtual bool ProcessInvokeConnect(BaseRTMPProtocol *pFrom,
+				    Variant &request);
+  private:
+	Variant hosts_allowed;
+	bool CheckHost(string host);
 	};
 }
 #endif	/* _RTMPAPPPROTOCOLHANDLER_H */
