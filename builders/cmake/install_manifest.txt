@@ -1,0 +1,16 @@
+/usr/local/lib/crtmpserver/liblua.so
+/usr/local/lib/crtmpserver/libtinyxml.so
+/usr/local/lib/crtmpserver/libcommon.so
+/usr/local/lib/crtmpserver/libthelib.so
+/usr/local/lib/crtmpserver/applications/flvplayback/libflvplayback.so
+/usr/local/lib/crtmpserver/applications/appselector/libappselector.so
+/usr/local/lib/crtmpserver/applications/samplefactory/libsamplefactory.so
+/usr/local/lib/crtmpserver/applications/vptests/libvptests.so
+/usr/local/lib/crtmpserver/applications/admin/libadmin.so
+/usr/local/lib/crtmpserver/applications/proxypublish/libproxypublish.so
+/usr/local/lib/crtmpserver/applications/stresstest/libstresstest.so
+/usr/local/lib/crtmpserver/applications/visio/libvisio.so
+/usr/local/sbin/crtmpserver
+/usr/local/etc/crtmpserver.lua.sample
+/usr/local/man/man1/crtmpserver.1
+/usr/local/etc/crtmpserver.lua
